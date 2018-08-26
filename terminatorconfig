@@ -1,0 +1,75 @@
+[global_config]
+  dbus = False
+  enabled_plugins = TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  focus = system
+  geometry_hinting = True
+  homogeneous_tabbar = False
+  inactive_color_offset = 0.653846153846
+  scroll_tabbar = True
+  sticky = True
+  title_hide_sizetext = True
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 517f7211-8e3a-45b2-a2b4-29c8d5d9e7c5
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:27
+      size = 950, 1000
+      title = shell
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 754
+      ratio = 0.842458100559
+      type = VPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 517f7211-8e3a-45b2-a2b4-29c8d5d9e7c5
+    [[[terminal3]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = dcff5785-fc2c-476a-85f4-64abe0218b07
+  [[default2]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 517f7211-8e3a-45b2-a2b4-29c8d5d9e7c5
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:27
+      size = 950, 900
+      title = shell
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = 517f7211-8e3a-45b2-a2b4-29c8d5d9e7c5
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    background_darkness = 0.75
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#c0e3ff"
+    cursor_color_fg = False
+    foreground_color = "#ebdbb2"
+    icon_bell = False
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollbar_position = hidden
+    show_titlebar = False
+    visible_bell = True
