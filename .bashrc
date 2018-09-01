@@ -92,3 +92,5 @@ fi
 
 # added by Anaconda3 installer
 export PATH="/home/thomas/anaconda3/bin:$PATH"
+
+PATH="$PATH:$HOME/bin"
