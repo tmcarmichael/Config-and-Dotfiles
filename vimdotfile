@@ -1,8 +1,9 @@
 set nocompatible
 filetype off
+
+" Plugins:
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" Plugins:
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'sjl/badwolf'
@@ -10,6 +11,8 @@ Plugin 'scrooloose/syntastic'
 Plugin 'vim-airline'
 call vundle#end()
 filetype plugin indent on
+au VimEnter *  NERDTree
+
 " Settings:
 colorscheme badwolf
 syntax on
@@ -45,6 +48,7 @@ set incsearch
 set ignorecase
 set smartcase
 set showmatch
+
 " Remap Keys:
 map <leader><space> :let @/=''<cr> " clear search
 map <leader>q gqip
@@ -64,6 +68,8 @@ inoremap <F1> <ESC>:set invfullscreen<CR>a
 nnoremap <F1> :set invfullscreen<CR>
 vnoremap <F1> :set invfullscreen<CR>
 nnoremap <silent><C-L> :call g:ToggleNumber()<cr>
+
+" Functions:
 
 " cursor change in tmux
 if exists('$TMUX')
