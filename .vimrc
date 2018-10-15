@@ -11,10 +11,13 @@ Plugin 'scrooloose/syntastic'
 Plugin 'vim-airline'
 call vundle#end()
 filetype plugin indent on
+" au VimEnter *  split
+" au VimEnter *  terminal
 au VimEnter *  NERDTree
 
 " Settings:
 colorscheme badwolf
+" hi Normal ctermbg=none
 syntax on
 filetype off
 filetype plugin indent on
@@ -28,7 +31,7 @@ set expandtab
 set noshiftround
 set modelines=0
 set number
-set relativenumber
+"set relativenumber
 set ruler
 set encoding=utf-8
 set wrap
@@ -70,6 +73,8 @@ vnoremap <F1> :set invfullscreen<CR>
 nnoremap <silent><C-L> :call g:ToggleNumber()<cr>
 " test:
 nnoremap <F11> :w !sudo tee %
+nnoremap <silent> <Leader>+ :exe "resize " . (winheight(0) * 3/2)<CR>
+nnoremap <silent> <Leader>- :exe "resize " . (winheight(0) * 2/3)<CR>
 
 
 " Functions:
