@@ -1,27 +1,96 @@
 {
-    "C_Cpp.clang_format_style": "Google",
-    "workbench.iconTheme": "vscode-icons",
-    "editor.renderWhitespace": "all",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "editor.suggestSelection": "first",
+    "python.jediEnabled": false,
+    "terminal.integrated.shell.windows": null,
+    "window.zoomLevel": 1,
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true,
+    "terminal.integrated.rendererType": "dom",
+    "python.linting.pep8Enabled": false,
+    "python.linting.pylintEnabled": true,
     "workbench.activityBar.visible": false,
-    "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false,
-    "editor.cursorBlinking": "phase",
-    "editor.minimap.enabled": false,
-    "editor.mouseWheelZoom": true,
-    "workbench.statusBar.visible": true,
-    "explorer.confirmDelete": false,
-    "window.zoomLevel": -1,
-    "python.pythonPath": "  ...  ",
     "workbench.colorTheme": "Monokai Dimmed",
+    "editor.minimap.enabled": false,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 0,
+    "editor.cursorSmoothCaretAnimation": true,
+    "window.menuBarVisibility": "toggle",
+    "workbench.statusBar.visible": true,
+    "editor.renderLineHighlight": "line",
+    "editor.renderWhitespace": "all",
+    "editor.tokenColorCustomizations": {
+        "comments": "#25b638cc",
+        "textMateRules": [
+            {
+                "scope": "string.quoted.docstring.multi.python",
+                "settings": {
+                    "foreground": "#1d9b2ea9",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "string.quoted.docstring.multi.python punctuation.definition.string.end.python",
+                "settings": {
+                    "foreground": "#1d9b2ea9",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+                "settings": {
+                    "foreground": "#1d9b2ea9",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
     "workbench.colorCustomizations": {
-        "editorWhitespace.foreground": "#323232",
-        "editorLineNumber.activeForeground":"#a2a2a2",
-        "editorLineNumber.foreground":"#575757",
+        // "editor.findMatchHighlightBackground": "#3ad1ffe7",
+        // "editor.findRangeHighlightBackground": "#0ac6ffe7",
+        // "editor.findMatchBorder": "#0ac6ffe7",
+        // "editor.worldHighlightStrongBackground": "#0ac6ffe7",
+        // "editor.wordHighlightStrongBorder": "#0ac6ffe7",
+        // "editor.wordHighlightBackground": "#ffbb00",
+        // "editor.wordHighlightBorder": "#ffbb00",
+        "editor.selectionHighlightBackground": "#16161683",
+        "editor.selectionHighlightBorder": "#16161683",
+        
+        "editor.foreground": "#e6e6e6e0",
+        "editor.background": "#16161683",
+        "editorWhitespace.foreground": "#323232c4",
+
+        "editorLineNumber.activeForeground":"#a2a2a269",
+        "editorLineNumber.foreground":"#575757a9",
         "editor.lineHighlightBackground": "#3535356c",
+
         "editorBracketMatch.background": "#8e212183",
         "editorBracketMatch.border":"#8e212157",
-        "editor.selectionBackground":"#5b5b5b3d",
-        "editor.selectionHighlightBackground": "#ff833f3d",
+
+        "editor.selectionForeground": "#ffffff",
+        "editor.selectionBackground":"#9c9c9c5b",
+        // "editor.selectionHighlightBackground": "#5b5b5b48",
+
+        "editorCursor.foreground": "#1cf0ff93",
+        "terminalCursor.foreground": "#1cf0ff93",
     },
-    "editor.renderControlCharacters": false,
+    "editor.cursorBlinking": "phase",
+    "workbench.tips.enabled": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "extensions.ignoreRecommendations": false,
+    "python.insidersChannel": "off",
+
+    // Toggle Suggestions & Hints
+    // "editor.parameterHints.enabled": false,
+    // "editor.wordBasedSuggestions": false,
+    // "editor.suggestOnTriggerCharacters": false,
+    // "editor.suggest.filterGraceful": false,
+    // "editor.hover.enabled": false,
+    // "editor.snippetSuggestions": "none",
+    // "editor.quickSuggestions": {
+    //     "other": false,
+    //     "comments": false,
+    //     "strings": false
+    //   }
 }
