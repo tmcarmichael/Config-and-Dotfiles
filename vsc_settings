@@ -1,6 +1,7 @@
 {
+    "editor.wordWrap": "on",
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
     "editor.suggestSelection": "first",
     "python.jediEnabled": false,
     "terminal.integrated.shell.windows": null,
@@ -11,7 +12,7 @@
     "python.linting.pep8Enabled": false,
     "python.linting.pylintEnabled": true,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     "editor.minimap.enabled": false,
     "editor.cursorStyle": "line",
     "editor.cursorWidth": 0,
@@ -21,27 +22,27 @@
     "editor.renderLineHighlight": "line",
     "editor.renderWhitespace": "all",
     "editor.tokenColorCustomizations": {
-        "comments": "#25b638cc",
+        // "comments": "#25b638cc",
         "textMateRules": [
             {
                 "scope": "string.quoted.docstring.multi.python",
                 "settings": {
                     "foreground": "#1d9b2ea9",
-                    "fontStyle": "bold"
+                    "fontStyle": "italic"
                 }
             },
             {
                 "scope": "string.quoted.docstring.multi.python punctuation.definition.string.end.python",
                 "settings": {
                     "foreground": "#1d9b2ea9",
-                    "fontStyle": "bold"
+                    "fontStyle": "italic"
                 }
             },
             {
                 "scope": "string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
                 "settings": {
                     "foreground": "#1d9b2ea9",
-                    "fontStyle": "bold"
+                    "fontStyle": "italic"
                 }
             }
         ]
@@ -54,26 +55,26 @@
         // "editor.wordHighlightStrongBorder": "#0ac6ffe7",
         // "editor.wordHighlightBackground": "#ffbb00",
         // "editor.wordHighlightBorder": "#ffbb00",
-        "editor.selectionHighlightBackground": "#16161683",
-        "editor.selectionHighlightBorder": "#16161683",
+        // "editor.selectionHighlightBackground": "#16161683",
+        // "editor.selectionHighlightBorder": "#16161683",
         
         "editor.foreground": "#e6e6e6e0",
-        "editor.background": "#16161683",
-        "editorWhitespace.foreground": "#323232c4",
+        "editor.background": "#1b1b1b83",
+        "editorWhitespace.foreground": "#444444c4",
 
-        "editorLineNumber.activeForeground":"#a2a2a269",
-        "editorLineNumber.foreground":"#575757a9",
-        "editor.lineHighlightBackground": "#3535356c",
+        // "editorLineNumber.activeForeground":"#a2a2a269",
+        // "editorLineNumber.foreground":"#575757a9",
+        // "editor.lineHighlightBackground": "#3535356c",
 
-        "editorBracketMatch.background": "#8e212183",
-        "editorBracketMatch.border":"#8e212157",
+        "editorBracketMatch.background": "#98f8ffb0",
+        // "editorBracketMatch.border":"#1cc5d1",
 
-        "editor.selectionForeground": "#ffffff",
-        "editor.selectionBackground":"#9c9c9c5b",
+        // "editor.selectionForeground": "#ffffff",
+        // "editor.selectionBackground":"#9c9c9c5b",
         // "editor.selectionHighlightBackground": "#5b5b5b48",
 
-        "editorCursor.foreground": "#1cf0ff93",
-        "terminalCursor.foreground": "#1cf0ff93",
+        // "editorCursor.foreground": "#1cf0ff93",
+        // "terminalCursor.foreground": "#1cf0ff93",
     },
     "editor.cursorBlinking": "phase",
     "workbench.tips.enabled": false,
@@ -81,7 +82,7 @@
     "extensions.ignoreRecommendations": false,
     "python.insidersChannel": "off",
 
-    // Toggle Suggestions & Hints
+    // Suggestions/ Popups - OFF
     // "editor.parameterHints.enabled": false,
     // "editor.wordBasedSuggestions": false,
     // "editor.suggestOnTriggerCharacters": false,
