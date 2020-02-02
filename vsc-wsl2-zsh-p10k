@@ -1,8 +1,11 @@
 { // 02/02 VSC - WSL2/Ubuntu/ZSH/P10K - config
+
     "breadcrumbs.enabled": false,
+    
     "code-runner.executorMap": {
         "python": "python3",
     },
+    
     "editor.fontFamily": "Source Code Pro",
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
@@ -11,7 +14,7 @@
     "editor.renderLineHighlight": "line",
     "editor.renderWhitespace": "all",
     "editor.tokenColorCustomizations": {
-    "textMateRules": [
+        "textMateRules": [
             {
                 "scope": "string.quoted.docstring.multi.python",
                 "settings": {
@@ -35,13 +38,16 @@
             }
         ]
     },
+    
     "python.jediEnabled": false,
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-
+    
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
     "terminal.integrated.fontFamily": "MesloLGS NF",
+    
     "vsicons.dontShowNewVersionMessage": true,
+    
     "window.menuBarVisibility": "toggle",
     "workbench.iconTheme": "vscode-icons",
     "workbench.tips.enabled": false,
