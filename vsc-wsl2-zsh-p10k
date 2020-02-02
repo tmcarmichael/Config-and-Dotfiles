@@ -10,9 +10,6 @@
     "editor.suggestSelection": "first",
     "editor.renderLineHighlight": "line",
     "editor.renderWhitespace": "all",
-    "python.jediEnabled": false,
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
     "editor.tokenColorCustomizations": {
     "textMateRules": [
             {
@@ -38,6 +35,10 @@
             }
         ]
     },
+    "python.jediEnabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "vsicons.dontShowNewVersionMessage": true,
