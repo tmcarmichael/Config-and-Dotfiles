@@ -3,6 +3,7 @@
     "code-runner.executorMap": {
         "python": "python3",
     },
+    "editor.fontFamily": "Source Code Pro",
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
     "editor.cursorSmoothCaretAnimation": true,
