@@ -1,0 +1,105 @@
+{ // 02/16/20 - Mac, Color Customization over Dark+ theme, 
+  "breadcrumbs.enabled": false,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "perl": "perl",
+    "go": "go run",
+    "python": "python3"
+  },
+  "editor.fontFamily": "Source Code Pro",
+  "editor.fontSize": 16,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.suggestSelection": "first",
+  "editor.renderLineHighlight": "line",
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Variables",
+        "scope": "variable",
+        "settings": {
+          // "fontStyle": "underline",
+          // "foreground": "#f3c8ab"
+          "foreground": "#78caf0"
+        }
+      },
+      {
+        "name": "Function declarations",
+        "scope": [
+          "entity.name.function",
+          // "support.function",
+          // "support.constant.handlebars"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          // "foreground": "#eedfb0e3"
+          "foreground": "#ecd48cef"
+        }
+      },
+      {
+        "name": "Comment",
+        "scope": "comment",
+        "settings": {
+          "foreground": "#4d4d4d"
+        }
+      },
+      // {
+      //   "name": "Punctuation",
+      //   "scope": [
+      //     "punctuation.separator",
+      //     "punctuation.terminator",
+      //   ],
+      //   "settings": {
+      //     "foreground": "#7c7c7c"
+      //   },
+      // },
+      {
+        "name": "this.self",
+        "scope": "variable.language",
+        "settings": {
+          "fontStyle": "italic"
+          // "foreground": "#ff9d2c"
+        }
+      }
+      // {
+      //   "name": "String interpolation",
+      //   "scope": [
+      //     "punctuation.definition.template-expression.begin",
+      //     "punctuation.definition.template-expression.end",
+      //     "punctuation.section.embedded"
+      //   ],
+      //   "settings": {
+      //     "foreground": "#3351d8",
+      //     // "fontStyle": "bold"
+      //   }
+      // },
+    ]
+  },
+  "editor.fontLigatures": true,
+  // "python.jediEnabled": false,
+  // "python.linting.pylintEnabled": true,
+  // "python.linting.enabled": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.menuBarVisibility": "toggle",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.tips.enabled": false,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": false,
+  "workbench.colorCustomizations": {
+    "editor.background": "#272727",
+    // "editorBracketMatch.background": "#7dda9c5d",
+    "editorBracketMatch.border": "#79d39783"
+  },
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "newUntitledFile",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+}
