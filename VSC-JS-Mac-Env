@@ -1,0 +1,211 @@
+{ // 04/19/20 MacOS VSC Default Dark+ theme ~ JS
+  "breadcrumbs.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "gitlens.currentLine.enabled": false,
+  "editor.fontFamily": "MesloLGS NF",
+  "editor.fontSize": 18,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.suggestSelection": "first",
+  "editor.renderLineHighlight": "line",
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true, // Toggle
+  "editor.renderIndentGuides": true,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorStyle": "block",
+  "editor.fontLigatures": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Variables",
+        "scope": [
+          "variable",
+          "support.variable.js"
+        ],
+        "settings": {
+          "foreground": "#7ec3e2f8"
+        }
+      },
+      {
+        "name": "Class",
+        "scope": [
+          "support.class"
+        ],
+        "settings": {
+          "foreground": "#7ec3e2f8"
+        }
+      },
+      {
+        "name": "Other",
+        "scope": [
+          "variable.other.constant.object.js",
+          "variable.other.constant.property.js",
+          "variable.other.constant.js",
+        ],
+        "settings": {
+          "foreground": "#7ec3e2f8"
+        }
+      },
+      {
+        "name": "Number",
+        "scope": "constant.numeric",
+        "settings": {
+          "foreground": "#758cf1fa"
+        }
+      },
+      {
+        "name": "Other",
+        "scope": "storage.type.js",
+        "settings": {}
+      },
+      {
+        "name": "Function declarations",
+        "scope": [
+          "entity.name.function",
+          "support.function.console.js",
+          "support.function",
+        ],
+        "settings": {
+          "foreground": "#e6d896e1"
+        }
+      },
+      {
+        "name": "Comment",
+        "scope": "comment",
+        "settings": {
+          "foreground": "#747474bd"
+        }
+      },
+      {
+        "name": "Punctuation",
+        "scope": [
+          "punctuation.separator",
+          "punctuation.terminator",
+          "punctuation.accessor.js",
+          "punctuation.definition.block.js",
+          "meta.brace.square.js",
+          "keyword.operator.comparison.js",
+          "meta.brace.round.js",
+          "keyword.operator.logical.js",
+          "keyword.operator.assignment.js",
+          "keyword.operator.relational.js",
+          "punctuation.definition.parameters.begin.js",
+          "punctuation.definition.parameters.end.js",
+          "meta.function-call.js",
+          "punctuation.separator.dictionary.pair.json.comments",
+          "meta.structure.dictionary.value.json.comments"
+        ],
+        "settings": {
+          "foreground": "#daf4ff96",
+        },
+      },
+      {
+        "name": "Punctuation",
+        "scope": [
+          "punctuation.separator",
+          "punctuation.accessor.js",
+          "keyword.operator.comparison.js",
+          "keyword.operator.logical.js",
+          "keyword.operator.assignment.js",
+          "keyword.operator.relational.js",
+          "storage.type.function.arrow.js",
+          "keyword.operator.arithmetic.js"
+        ],
+        "settings": {}
+      },
+      {
+        "name": "String",
+        "scope": [
+          "string",
+          "string.regexp.js",
+        ],
+        "settings": {
+          "foreground": "#c48c74e5"
+        }
+      },
+      {
+        "name": "this.self",
+        "scope": "variable.language",
+        "settings": {
+          "fontStyle": "italic",
+        }
+      },
+      {
+        "name": "String interpolation",
+        "scope": [
+          "punctuation.definition.template-expression.begin",
+          "punctuation.definition.template-expression.end",
+          "punctuation.section.embedded"
+        ],
+        "settings": {
+          "foreground": "#4e65cc",
+        }
+      },
+      {
+        "name": "String interpolation",
+        "scope": [
+          "storage.type.function.arrow.js",
+        ],
+        "settings": {
+          "foreground": "#ff7c82",
+        }
+      },
+    ]
+  },
+  "gitlens.keymap": "none",
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "prettier.singleQuote": true,
+  "prettier.bracketSpacing": false,
+  "prettier.trailingComma": "es5",
+  "python.jediEnabled": false,
+  "python.insidersChannel": "weekly",
+  "telemetry.enableTelemetry": false,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.rendererType": "dom",
+  "todo-tree.highlights.enabled": true,
+  "todo-tree.tree.showScanModeButton": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.tips.enabled": false,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#00ff4c27",
+    "terminalCursor.foreground": "#00ff2a52",
+    "editor.background": "#272727",
+    "terminal.background": "#272727",
+    "terminal.foreground": "#bbbbbb",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#5581fc",
+    "terminal.ansiBrightCyan": "#62d1a6",
+    "terminal.ansiBrightGreen": "#63dd36f1",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#c05c4f",
+    "terminal.ansiBrightWhite": "#dadada",
+    "terminal.ansiBrightYellow": "#fdad52",
+    "terminal.ansiBlack": "#1f1f1f",
+    "terminal.ansiBlue": "#2a54ddd8",
+    "terminal.ansiCyan": "#8b90a5",
+    "terminal.ansiGreen": "#77d655fa",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#da5e4d",
+    "terminal.ansiWhite": "#dbdbdb",
+    "terminal.ansiYellow": "#dba568",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
