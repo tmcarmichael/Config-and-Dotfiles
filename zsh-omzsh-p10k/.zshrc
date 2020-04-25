@@ -23,6 +23,9 @@ alias zshrc="micro ~/.zshrc && source ~/.zshrc"
 alias omzrc="micro ~/.oh-my-zsh && source ~/.oh-my-zsh"
 alias gitrc="micro ~/.gitconfig && source ~/.gitconfig"
 alias genv="git config --list"
+alias ghist="log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+alias m="micro"
+alias vs="code ."
 
 alias l="ls -GlaFh"
 alias ll="ls -GlwF"
@@ -38,8 +41,6 @@ alias f="find . -name"
 alias t1="tree -C -L 1 ."
 alias t2="tree -C -L 2 ."
 alias t3="tree -C -L 3 ."
-alias m="micro"
-alias vs="code ."
 
 if [[ "$TERM" != "dumb" ]]; then
     if [[ -x `which dircolors 2> /dev/null` ]]; then
