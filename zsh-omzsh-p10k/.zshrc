@@ -32,6 +32,7 @@ alias t2="tree -C -L 2 -I 'node_modules' --filelimit 20 ."
 alias t3="tree -C -L 3 -I 'node_modules' --filelimit 20 ."
 alias vs="code ."
 alias rmb="git branch --merged | grep -v '(^\*|master|dev)' | xargs git branch -d"
+alias bu="brew update && brew upgrade && brew cleanup"
 
 # FUNCTIONS
 function cd {
