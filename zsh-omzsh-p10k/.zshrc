@@ -33,7 +33,7 @@ alias t3="tree -C -L 3 -I 'node_modules' --filelimit 20 ."
 alias vs="code ."
 alias rmb="git branch --merged | grep -v '(^\*|master|dev)' | xargs git branch -d"
 alias bu="brew update && brew upgrade && brew cleanup"
-alias npmscripts="cat package.json | grep 'scripts' -A20 | tail -n 20 | grep '[}]' -B20 | tail -n 20 | grep '[\"][a-z-]*[\"]'"
+alias npmscripts='cat package.json | grep "scripts\"" -A30 | tail -n 30 | grep "[}][,]" -B30 | tail -n 30 | grep "[\"][a-z-]*[\"][:]"'
 
 # FUNCTIONS
 function cd {
