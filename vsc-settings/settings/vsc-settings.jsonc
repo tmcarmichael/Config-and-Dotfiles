@@ -1,0 +1,83 @@
+{
+    // Terminal:
+    "debug.console.fontSize": 10,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.fontFamily": "Source Code Pro",
+
+    // Editor:
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 20,
+    "editor.lineHeight": 22,
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": true,
+    "editor.wordWrap": "on",
+    "editor.suggestSelection": "first",
+    "editor.detectIndentation": false,
+    "editor.cursorBlinking": "phase",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+
+    // Explorer:
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    // Workbench:
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.tips.enabled": false,
+    "workbench.statusBar.visible": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+
+    // Language specific settings:
+    "json.maxItemsComputed": 20000,
+    "go.toolsManagement.autoUpdate": true,
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.suggest.snippetsPreventQuickSuggestions": false
+    },
+
+    // Prettier format settings:
+    "prettier.printWidth": 100,
+    "prettier.tabWidth": 4,
+    "prettier.requireConfig": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+
+    ////////////////////////////////////////////////
+    // Toggle typehints: Comment = Typehints ON
+    // "editor.parameterHints.enabled": false,
+    // "editor.suggest.snippetsPreventQuickSuggestions": false,
+    // "html.suggest.html5": false,
+    // "editor.snippetSuggestions": "none",
+    // "editor.acceptSuggestionOnCommitCharacter": false,
+    // "editor.quickSuggestions": {
+    //   "other": false,
+    //   "comments": false,
+    //   "strings": false
+    // },
+    // "editor.suggestOnTriggerCharacters": false,
+    // "editor.acceptSuggestionOnEnter": "off",
+    // "editor.hover.sticky": false,
+    // "editor.hover.enabled": false,
+    // "editor.quickSuggestionsDelay": 1000,
+    // "editor.wordBasedSuggestions": false,
+    ////////////////////////////////////////////////
+}
