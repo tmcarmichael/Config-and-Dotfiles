@@ -32,17 +32,45 @@
     "*.js": "javascriptreact",
     "*.ts": "typescriptreact"
   },
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    ".git": true,
+    ".build": true,
+    ".profile-oss": true,
+    "**/.DS_Store": true,
+    "build/**/*.js": {
+      "when": "$(basename).ts"
+    }
+  },
+
+  // Gitlens:
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.hovers.enabled": false,
 
   // Language specific settings:
   "json.maxItemsComputed": 40000,
+  "go.useLanguageServer": true,
   "go.toolsManagement.autoUpdate": true,
-  "[go, javascript, javascriptreact, typescript, typescriptreact python, json]": {
-    "editor.insertSpaces": true,
+  "go.testOnSave": true,
+  "go.formatTool": "goimports",
+  "go.testFlags": ["-v"],
+  "go.lintOnSave": "file",
+  "go.autocompleteUnimportedPackages": true,
+  "[go]": {
+    "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
+    "editor.insertSpaces": false,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    },
-    "editor.suggest.snippetsPreventQuickSuggestions": false
+      "source.organizeImports": false
+    }
+  },
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 100,
+    "editor.lineNumbers": "off",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 18
   },
 
   // Prettier format settings:
@@ -57,20 +85,19 @@
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.lineHeight": 1,
   "terminal.integrated.fontFamily": "Source Code Pro", // "Operator Mono Lig",
-  
+
   // Workbench:
   "workbench.panel.defaultLocation": "bottom",
   "workbench.tips.enabled": false,
   "workbench.statusBar.visible": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.startupEditor": "none",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.renderIndentGuides": "always",
   "workbench.activityBar.visible": false,
   "workbench.tree.indent": 6,
-  
+
   // *Other*:
   "debug.console.fontSize": 10,
   "liveServer.settings.donotShowInfoMsg": true,
-  "window.zoomLevel": -1,
-  "workbench.tree.renderIndentGuides": "always"
+  "window.zoomLevel": -1
 }
