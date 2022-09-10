@@ -1,83 +1,76 @@
 {
-    // Terminal:
-    "debug.console.fontSize": 10,
-    "terminal.integrated.fontSize": 12,
-    "terminal.integrated.lineHeight": 1,
-    "terminal.integrated.fontFamily": "Source Code Pro",
+  // Editor:
+  "editor.fontFamily": "Source Code Pro", // "Operator Mono Lig",
+  "editor.fontSize": 20,
+  "editor.lineHeight": 26,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "selection",
+  "editor.minimap.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.suggestSelection": "first",
+  "editor.cursorBlinking": "phase",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
 
-    // Editor:
-    "editor.fontFamily": "Source Code Pro",
-    "editor.fontSize": 20,
-    "editor.lineHeight": 22,
-    "editor.tabSize": 4,
-    "editor.renderWhitespace": "none",
-    "editor.minimap.enabled": true,
-    "editor.wordWrap": "on",
-    "editor.suggestSelection": "first",
-    "editor.detectIndentation": false,
-    "editor.cursorBlinking": "phase",
-    "editor.bracketPairColorization.enabled": true,
+  // Emmet:
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  // Explorer:
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+
+  // Files:
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.ts": "typescriptreact"
+  },
+
+  // Language specific settings:
+  "json.maxItemsComputed": 20000,
+  "go.toolsManagement.autoUpdate": true,
+  "[go, javascript, javascriptreact, typescript, typescriptreact python, json]": {
     "editor.insertSpaces": true,
     "editor.formatOnSave": true,
-
-    // Explorer:
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-
-    // Workbench:
-    "workbench.panel.defaultLocation": "bottom",
-    "workbench.tips.enabled": false,
-    "workbench.statusBar.visible": true,
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.startupEditor": "none",
-    "workbench.iconTheme": "material-icon-theme",
-
-    // Language specific settings:
-    "json.maxItemsComputed": 20000,
-    "go.toolsManagement.autoUpdate": true,
-    "[go]": {
-        "editor.insertSpaces": false,
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        },
-        "editor.suggest.snippetsPreventQuickSuggestions": false
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
     },
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
 
-    // Prettier format settings:
-    "prettier.printWidth": 100,
-    "prettier.tabWidth": 4,
-    "prettier.requireConfig": true,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+  // Prettier format settings:
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.requireConfig": false,
+  "[javascript, javascriptreact, typescript, typescriptreact, json, jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-    ////////////////////////////////////////////////
-    // Toggle typehints: Comment = Typehints ON
-    // "editor.parameterHints.enabled": false,
-    // "editor.suggest.snippetsPreventQuickSuggestions": false,
-    // "html.suggest.html5": false,
-    // "editor.snippetSuggestions": "none",
-    // "editor.acceptSuggestionOnCommitCharacter": false,
-    // "editor.quickSuggestions": {
-    //   "other": false,
-    //   "comments": false,
-    //   "strings": false
-    // },
-    // "editor.suggestOnTriggerCharacters": false,
-    // "editor.acceptSuggestionOnEnter": "off",
-    // "editor.hover.sticky": false,
-    // "editor.hover.enabled": false,
-    // "editor.quickSuggestionsDelay": 1000,
-    // "editor.wordBasedSuggestions": false,
-    ////////////////////////////////////////////////
+  // Terminal and font:
+  "debug.console.fontSize": 10,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.fontFamily": "Source Code Pro", // "Operator Mono Lig",
+
+  // Workbench:
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.tips.enabled": false,
+  "workbench.statusBar.visible": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.activityBar.visible": false,
+  "workbench.tree.indent": 6,
+
+  // Other:
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.zoomLevel": -1,
+  "workbench.tree.renderIndentGuides": "always"
 }
