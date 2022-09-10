@@ -34,7 +34,7 @@
   },
 
   // Language specific settings:
-  "json.maxItemsComputed": 20000,
+  "json.maxItemsComputed": 40000,
   "go.toolsManagement.autoUpdate": true,
   "[go, javascript, javascriptreact, typescript, typescriptreact python, json]": {
     "editor.insertSpaces": true,
@@ -53,12 +53,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  // Terminal and font:
-  "debug.console.fontSize": 10,
+  // Terminal:
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.lineHeight": 1,
   "terminal.integrated.fontFamily": "Source Code Pro", // "Operator Mono Lig",
-
+  
   // Workbench:
   "workbench.panel.defaultLocation": "bottom",
   "workbench.tips.enabled": false,
@@ -68,8 +67,9 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.activityBar.visible": false,
   "workbench.tree.indent": 6,
-
-  // Other:
+  
+  // *Other*:
+  "debug.console.fontSize": 10,
   "liveServer.settings.donotShowInfoMsg": true,
   "window.zoomLevel": -1,
   "workbench.tree.renderIndentGuides": "always"
