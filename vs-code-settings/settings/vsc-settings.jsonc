@@ -16,16 +16,23 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
 
-  // Emmet:
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
-  },
-
   // Explorer:
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
+
+  // Extension settings:
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.hovers.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.requireConfig": false,
 
   // Files:
   "files.associations": {
@@ -43,13 +50,11 @@
     }
   },
 
-  // Gitlens:
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.hovers.enabled": false,
-
-  // Language specific settings:
+  // Language settings:
   "json.maxItemsComputed": 40000,
+  "typescript.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "html.autoClosingTags": true,
   "go.useLanguageServer": true,
   "go.toolsManagement.autoUpdate": true,
   "go.testOnSave": true,
@@ -73,11 +78,6 @@
     "editor.fontSize": 18
   },
 
-  // Prettier format settings:
-  "prettier.printWidth": 100,
-  "prettier.tabWidth": 2,
-  "prettier.requireConfig": false,
-
   // Terminal:
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.lineHeight": 1,
@@ -91,10 +91,5 @@
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "always",
   "workbench.activityBar.visible": false,
-  "workbench.tree.indent": 6,
-
-  // *Other*:
-  "debug.console.fontSize": 10,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "window.zoomLevel": -1
+  "workbench.tree.indent": 6
 }
