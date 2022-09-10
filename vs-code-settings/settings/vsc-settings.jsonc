@@ -77,9 +77,6 @@
   "prettier.printWidth": 100,
   "prettier.tabWidth": 2,
   "prettier.requireConfig": false,
-  "[javascript, javascriptreact, typescript, typescriptreact, json, jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
 
   // Terminal:
   "terminal.integrated.fontSize": 12,
