@@ -1,8 +1,10 @@
 {
   // Editor:
   "editor.fontFamily": "Source Code Pro", // "Operator Mono Lig",
-  "editor.fontSize": 20,
-  "editor.lineHeight": 26,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 22,
+  "editor.fontWeight": "400",
+  "editor.suggestFontSize": 16,
   "editor.tabSize": 2,
   "editor.renderWhitespace": "selection",
   "editor.minimap.enabled": true,
@@ -58,9 +60,6 @@
   "go.useLanguageServer": true,
   "go.toolsManagement.autoUpdate": true,
   "go.testOnSave": true,
-  "go.formatTool": "goimports",
-  "go.testFlags": ["-v"],
-  "go.lintOnSave": "file",
   "go.autocompleteUnimportedPackages": true,
   "[go]": {
     "editor.formatOnPaste": true,
