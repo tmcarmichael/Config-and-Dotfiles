@@ -31,6 +31,14 @@
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.hovers.enabled": false,
+  "github.copilot.advanced": {
+    "length": 500,
+    "temperature": "0.8",
+    "top_p": 1,
+    "model": "davinci-codex",
+    "inlineSuggestCount": 5,
+    "debug.showScores": true
+  },
   "liveServer.settings.donotShowInfoMsg": true,
   "prettier.printWidth": 100,
   "prettier.tabWidth": 2,
@@ -60,6 +68,9 @@
   "go.useLanguageServer": true,
   "go.toolsManagement.autoUpdate": true,
   "go.testOnSave": true,
+  "go.formatTool": "goimports",
+  "go.testFlags": ["-v"],
+  "go.lintOnSave": "file",
   "go.autocompleteUnimportedPackages": true,
   "[go]": {
     "editor.formatOnPaste": true,
@@ -80,7 +91,7 @@
   // Terminal:
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.lineHeight": 1,
-  "terminal.integrated.fontFamily": "Source Code Pro", // "Operator Mono Lig",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
 
   // Workbench:
   "workbench.panel.defaultLocation": "bottom",
@@ -90,5 +101,6 @@
   "workbench.startupEditor": "none",
   "workbench.tree.renderIndentGuides": "always",
   "workbench.activityBar.visible": false,
-  "workbench.tree.indent": 6
+  "workbench.tree.indent": 6,
+  "workbench.iconTheme": "vscode-great-icons"
 }
