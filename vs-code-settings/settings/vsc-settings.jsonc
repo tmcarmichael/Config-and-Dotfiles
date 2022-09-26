@@ -2,7 +2,7 @@
   // Editor:
   "editor.fontFamily": "Source Code Pro", // "Operator Mono Lig",
   "editor.fontSize": 16,
-  "editor.lineHeight": 22,
+  "editor.lineHeight": 23,
   "editor.fontWeight": "400",
   "editor.suggestFontSize": 16,
   "editor.tabSize": 2,
@@ -102,5 +102,15 @@
   "workbench.tree.renderIndentGuides": "always",
   "workbench.activityBar.visible": false,
   "workbench.tree.indent": 6,
-  "workbench.iconTheme": "vscode-great-icons"
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.colorCustomizations": {
+    "sideBar.foreground": "#aaa7a7",
+    "sideBarSectionHeader.background": "#1c1c1c",
+    "sideBarSectionHeader.foreground": "#c1c1c1",
+    "list.inactiveSelectionBackground": "#08c52e2a",
+    "list.activeSelectionBackground": "#21d24555"
+  },
+
+  // Other:
+  "search.useIgnoreFiles": false
 }
