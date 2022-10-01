@@ -1,0 +1,22 @@
+[user]
+    name = @@@@
+    email = @@@@
+[alias]
+    co = checkout
+    br = branch
+    st = status
+    hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(
+bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    hist20 = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %
+C(bold blue)<%an>%Creset' --abbrev-commit --date=relative -n 20
+[core]
+      excludesfile = /Users/@@@@/.gitignore
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true  # use n and N to move between diff sections
+    side-by-side = true
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default
